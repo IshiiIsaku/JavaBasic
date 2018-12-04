@@ -14,6 +14,9 @@ public class PTra02_08 {
 
 		// ★ 変数num, calc, nameを連結して「鈴木さんは、25歳になりました」を出力してください
 
+		int sum;
+		sum=num+calc;
 
+		System.out.println("「"+name+"さんは、"+sum+"歳になりました"+"」");
 	}
 }
